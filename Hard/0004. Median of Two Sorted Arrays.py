@@ -1,6 +1,8 @@
 # Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
 # The overall run time complexity should be O(log (m+n)).
 #
+# Run by calling findMedianSortedArrays of the Solution class.
+#
 # The Approach is to split each of the 2 sorted lists into 3rds. By comparing the smallest and largest of each third
 # Against the 3rds in the other list, we can deduce that each of the 3rds has some x number of elements definately
 # smaller and some y numebr of elements definately larger.
